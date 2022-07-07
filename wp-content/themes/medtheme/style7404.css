@@ -3326,7 +3326,7 @@ body {
 }
 
 .ui-title-page h1 {
-    color: #fff;
+    color: #000000 !important;
     font-size: 54px;
     line-height: 1.2;
     max-width: 1000px;
