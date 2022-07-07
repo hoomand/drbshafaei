@@ -1,0 +1,387 @@
+
+/* --- KASWARA home appointment form --- */
+
+
+
+.home-appointment-form .col-md-6 .km_cf7-submit-insider {
+    min-width: 100% !important;
+    height: 46px;
+}
+
+
+.home-appointment-form  .col-md-6   .km_cf7-button{
+    z-index: 1 !important;
+}
+
+.home-appointment-form  .km_cf7-submit-container:hover  .km_cf7-button{
+    z-index: 99999999 !important;
+}
+
+
+.home-appointment-form  .tmp-select-dropdown.open {
+    z-index: 9999999;
+}
+
+
+.home-appointment-form .col-md-6 .km_cf7-submit-btn-txt {
+    color: #fff !important;
+    padding-top: 4px;
+}
+
+
+.home-appointment-form .kameleon-cf7-container[data-style=qaswara] .km_cf7-input-container.filled .km_cf7-input, .home-appointment-form .kameleon-cf7-container[data-style=qaswara] .km_cf7-input:focus{
+    border: 1px solid #eeeeee !important;
+}
+
+
+.home-appointment-form  ::-webkit-input-placeholder { /* Chrome */
+  color: #222;
+}
+.home-appointment-form  :-ms-input-placeholder { /* IE 10+ */
+  color: #222;
+}
+.home-appointment-form  ::-moz-placeholder { /* Firefox 19+ */
+  color: #222;
+  opacity: 1;
+}
+.home-appointment-form  :-moz-placeholder { /* Firefox 4 - 18 */
+  color: #222;
+  opacity: 1;
+}
+
+
+
+.wpcf7-form-control-wrap {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.wpcf7-form-control-wrap  .tmp-select-dropdown {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.kameleon-cf7-container[data-style=qaswara] .km_cf7-input , .kameleon-cf7-container[data-style=qaswara] .tmp-select-dropdown .selected ,
+.kameleon-cf7-container[data-style=qaswara]  .tmp-select-dropdown li , .wpcf7-datetime{
+    background: #fff;
+    color: rgba(181, 179, 179, 1);
+    font-size: 15px;
+    border: 1px solid #eeeeee;
+}
+
+
+.kameleon-cf7-container[data-style=qaswara]  .tmp-select-dropdown li:hover{
+    color: #222;
+}
+
+.kameleon-cf7-container[data-style=qaswara]  .wpcf7-date , .kameleon-cf7-container[data-style=qaswara] .km_cf7-input-container{
+    background-color: #fff;
+    margin: 0;
+}
+
+.kameleon-cf7-container[data-style=qaswara]   .wpcf7-form-control-wrap{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+.datetime-box{
+    position: relative;
+}
+
+
+.datetime-box  .fa{
+    position: absolute;
+    top: 17px;
+    left: 11px;
+    z-index: 1;
+    color: #222;
+}
+
+
+
+
+.datetime-box  .wpcf7-datetime{
+    border: 1px solid #eeeeee;
+    padding: 10px 10px 10px 30px !important;
+    height: inherit;  
+}
+
+
+.wpcf7-form  .col-md-6{
+    position: relative;
+}
+
+
+
+
+
+
+
+/* --- EASYDROPDOWN METRO THEME --- */
+
+
+
+
+
+.chart_options label{
+    display: inline-block;
+    width: 100%;
+}
+
+
+.tmp-select-dropdown  ul , .tmp-select-dropdown  ol {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none;
+}
+
+
+.tmp-select-dropdown  li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+.tmp-select-dropdown  li::before{
+    display: none !important;
+}
+
+/* PREFIXED CSS */
+
+.tmp-select-dropdown,
+.tmp-select-dropdown div,
+.tmp-select-dropdown li,
+.tmp-select-dropdown div::after,
+.tmp-select-dropdown .carat,
+.tmp-select-dropdown .carat:after,
+.tmp-select-dropdown .selected::after,
+.dropdown:after{
+	-webkit-transition: all 150ms ease-in-out;
+	-moz-transition: all 150ms ease-in-out;
+	-ms-transition: all 150ms ease-in-out;
+	transition: all 150ms ease-in-out;
+}
+
+.tmp-select-dropdown .selected::after,
+.tmp-select-dropdown.scrollable div::after{
+	-webkit-pointer-events: none;
+	-moz-pointer-events: none;
+	-ms-pointer-events: none;
+	pointer-events: none;
+}
+
+/* WRAPPER */
+
+.tmp-select-dropdown{
+    position: relative;
+    width: 100px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    display: inline-block;
+}
+
+.tmp-select-dropdown.open{
+	z-index: 2;
+}
+
+
+
+.tmp-select-dropdown:after{
+	content: '';
+	position: absolute;
+	right: 3px;
+	bottom: 3px;
+	top: 2px;
+	width: 30px;
+	background: transparent;
+}
+
+
+
+/* CARAT */
+
+.tmp-select-dropdown .carat,
+.tmp-select-dropdown .carat:after{
+	content: '';
+	position: absolute;
+    right: 15px;
+	top: 50%;
+    margin-top: -2px;
+	border: 5px solid transparent;
+	border-top: 5px solid #ddd;
+	z-index: 2;
+	
+	-webkit-transform-origin: 50% 20%;
+	-moz-transform-origin: 50% 20%;
+	-ms-transform-origin: 50% 20%;
+	transform-origin: 50% 20%;
+	
+}
+
+.tmp-select-dropdown .carat:after{
+	margin-top: -10px;
+	right: -8px;
+	border-top-color: #f8f8f8;
+}
+
+
+
+.tmp-select-dropdown.open .carat{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+    margin-top: -6px;
+}
+
+/* OLD SELECT (HIDDEN) */
+
+.tmp-select-dropdown .old{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+}
+
+.tmp-select-dropdown select{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.tmp-select-dropdown.touch .old{
+	width: 100%;
+	height: 100%;
+}
+
+.tmp-select-dropdown.touch select{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+/* SELECTED FEEDBACK ITEM */ 
+
+.tmp-select-dropdown .selected{
+    display: block;
+    font-size: 15px;
+    color: #222;
+    padding: 10px 35px 10px 18px;
+    text-align: left;
+    white-space: nowrap;
+    border-radius: 0;
+  
+}
+
+
+
+
+
+.tmp-select-dropdown li{
+	display: block;
+	font-size: 18px;
+	line-height: 1;
+	color: #000;
+	padding: 9px 12px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.tmp-select-dropdown .selected::after{
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 60px;
+	border-radius: 0 2px 2px 0;
+}
+
+
+
+/* DROP DOWN WRAPPER */
+
+.tmp-select-dropdown div{
+	position: absolute;
+	height: 0;
+	left: 0;
+	right: 0;
+	top: 100%;
+	margin-top: -1px;
+	overflow: hidden;
+	opacity: 0;
+}
+
+
+
+/* Height is adjusted by JS on open */
+
+.tmp-select-dropdown.open div{
+	opacity: 1;
+	z-index: 2;
+}
+
+/* FADE OVERLAY FOR SCROLLING LISTS */
+
+.tmp-select-dropdown.scrollable div::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 50px;
+	
+	box-shadow: inset 0 -50px 30px -35px #f8f8f8;
+}
+
+.tmp-select-dropdown.scrollable:hover div::after{
+	box-shadow: inset 0 -50px 30px -35px #f4f4f4;
+}
+
+.tmp-select-dropdown.scrollable.bottom div::after{
+	opacity: 0;
+}
+
+/* DROP DOWN LIST */
+
+.tmp-select-dropdown ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.tmp-select-dropdown.scrollable.open ul{
+	overflow-y: auto;
+}
+
+/* DROP DOWN LIST ITEMS */
+.tmp-select-dropdown li {
+    list-style: none;
+    padding: 10px 20px 10px 20px;
+    background: #fff;
+    color: #222;
+}
+/* .focus class is also added on hover */
+
+
+
+.tmp-select-dropdown li.active{
+     background: #fff;
+    color: #222;
+}

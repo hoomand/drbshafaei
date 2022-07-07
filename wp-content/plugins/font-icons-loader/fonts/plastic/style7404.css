@@ -1,0 +1,299 @@
+@font-face {
+  font-family: 'plastic';
+  src:  url('fonts/plastic43d7.eot?pohu68');
+  src:  url('fonts/plastic43d7.eot?pohu68#iefix') format('embedded-opentype'),
+    url('fonts/plastic43d7.ttf?pohu68') format('truetype'),
+    url('fonts/plastic43d7.woff?pohu68') format('woff'),
+    url('fonts/plastic43d7.svg?pohu68#plastic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="plastic-"], [class*=" plastic-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'plastic' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.plastic-lips:before {
+  content: "\e900";
+}
+.plastic-eye:before {
+  content: "\e901";
+}
+.plastic-liposuction:before {
+  content: "\e902";
+}
+.plastic-breasts:before {
+  content: "\e903";
+}
+.plastic-nose:before {
+  content: "\e904";
+}
+.plastic-plastic-surgery:before {
+  content: "\e905";
+}
+.plastic-plastic-surgery-1:before {
+  content: "\e906";
+}
+.plastic-lips-1:before {
+  content: "\e907";
+}
+.plastic-eyebrows:before {
+  content: "\e908";
+}
+.plastic-plastic-surgery-2:before {
+  content: "\e909";
+}
+.plastic-arm:before {
+  content: "\e90a";
+}
+.plastic-leg:before {
+  content: "\e90b";
+}
+.plastic-butt:before {
+  content: "\e90c";
+}
+.plastic-wrinkles:before {
+  content: "\e90d";
+}
+.plastic-smile:before {
+  content: "\e90e";
+}
+.plastic-butt-1:before {
+  content: "\e90f";
+}
+.plastic-butt-2:before {
+  content: "\e910";
+}
+.plastic-breast:before {
+  content: "\e911";
+}
+.plastic-fat:before {
+  content: "\e912";
+}
+.plastic-cellulitis:before {
+  content: "\e913";
+}
+.plastic-cellulitis-1:before {
+  content: "\e914";
+}
+.plastic-body:before {
+  content: "\e915";
+}
+.plastic-liposuction-1:before {
+  content: "\e916";
+}
+.plastic-breast-implant:before {
+  content: "\e917";
+}
+.plastic-add:before {
+  content: "\e918";
+}
+.plastic-beautiful:before {
+  content: "\e919";
+}
+.plastic-handsome:before {
+  content: "\e91a";
+}
+.plastic-nose-1:before {
+  content: "\e91b";
+}
+.plastic-plastic-surgery-3:before {
+  content: "\e91c";
+}
+.plastic-ear:before {
+  content: "\e91d";
+}
+.plastic-eye-1:before {
+  content: "\e91e";
+}
+.plastic-lips-2:before {
+  content: "\e91f";
+}
+.plastic-genders:before {
+  content: "\e920";
+}
+.plastic-veins:before {
+  content: "\e921";
+}
+.plastic-scar:before {
+  content: "\e922";
+}
+.plastic-mole:before {
+  content: "\e923";
+}
+.plastic-man:before {
+  content: "\e924";
+}
+.plastic-woman:before {
+  content: "\e925";
+}
+.plastic-eyebrows-1:before {
+  content: "\e926";
+}
+.plastic-syringe:before {
+  content: "\e927";
+}
+.plastic-scalpel:before {
+  content: "\e928";
+}
+.plastic-clamp:before {
+  content: "\e929";
+}
+.plastic-doctor:before {
+  content: "\e92a";
+}
+.plastic-doctor-1:before {
+  content: "\e92b";
+}
+.plastic-first-aid-kit:before {
+  content: "\e92c";
+}
+.plastic-clipboard:before {
+  content: "\e92d";
+}
+.plastic-botox:before {
+  content: "\e92e";
+}
+.plastic-pills:before {
+  content: "\e92f";
+}
+.plastic-hospital:before {
+  content: "\e930";
+}
+.plastic-liposuction-2:before {
+  content: "\e931";
+}
+.plastic-butt-3:before {
+  content: "\e932";
+}
+.plastic-liposuction-3:before {
+  content: "\e933";
+}
+.plastic-belly:before {
+  content: "\e934";
+}
+.plastic-breast-1:before {
+  content: "\e935";
+}
+.plastic-plastic-surgery-4:before {
+  content: "\e936";
+}
+.plastic-liposuction-4:before {
+  content: "\e937";
+}
+.plastic-gluteus:before {
+  content: "\e938";
+}
+.plastic-plastic-surgery-5:before {
+  content: "\e939";
+}
+.plastic-liposuction-5:before {
+  content: "\e93a";
+}
+.plastic-belly-1:before {
+  content: "\e93b";
+}
+.plastic-belly-2:before {
+  content: "\e93c";
+}
+.plastic-gluteus-1:before {
+  content: "\e93d";
+}
+.plastic-gluteus-implant:before {
+  content: "\e93e";
+}
+.plastic-liposuction-6:before {
+  content: "\e93f";
+}
+.plastic-plastic-surgery-6:before {
+  content: "\e940";
+}
+.plastic-breast-implant-1:before {
+  content: "\e941";
+}
+.plastic-surgery:before {
+  content: "\e942";
+}
+.plastic-scissors:before {
+  content: "\e943";
+}
+.plastic-gloves:before {
+  content: "\e944";
+}
+.plastic-surgery-tools:before {
+  content: "\e945";
+}
+.plastic-facial:before {
+  content: "\e946";
+}
+.plastic-medical-instrument:before {
+  content: "\e947";
+}
+.plastic-breast-2:before {
+  content: "\e948";
+}
+.plastic-face:before {
+  content: "\e949";
+}
+.plastic-nose-2:before {
+  content: "\e94a";
+}
+.plastic-nose-3:before {
+  content: "\e94b";
+}
+.plastic-blood:before {
+  content: "\e94c";
+}
+.plastic-bed:before {
+  content: "\e94d";
+}
+.plastic-doctor-2:before {
+  content: "\e94e";
+}
+.plastic-physician:before {
+  content: "\e94f";
+}
+.plastic-scalpel-1:before {
+  content: "\e950";
+}
+.plastic-breast-3:before {
+  content: "\e951";
+}
+.plastic-patient:before {
+  content: "\e952";
+}
+.plastic-surgeon:before {
+  content: "\e953";
+}
+.plastic-treatment:before {
+  content: "\e954";
+}
+.plastic-fat-1:before {
+  content: "\e955";
+}
+.plastic-liposuction-7:before {
+  content: "\e956";
+}
+.plastic-eyebrow:before {
+  content: "\e957";
+}
+.plastic-surgery-1:before {
+  content: "\e958";
+}
+.plastic-blood-1:before {
+  content: "\e959";
+}
+.plastic-suture:before {
+  content: "\e95a";
+}
